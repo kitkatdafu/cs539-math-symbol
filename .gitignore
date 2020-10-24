@@ -1,4 +1,5 @@
 .DS_Store
+.idea
 *.bbl
 *.tex
 README.pdf
