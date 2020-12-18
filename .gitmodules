@@ -1,0 +1,3 @@
+[submodule "ScanSSD"]
+	path = ScanSSD
+	url = https://github.com/MaliParag/ScanSSD
