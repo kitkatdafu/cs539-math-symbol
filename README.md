@@ -70,14 +70,14 @@ generating harmful latex code.
 
 Acknowledgements
 ===========================
-[1]  Notability.  https://www.gingerlabs.com.
-[2]  Jianshu  Zhang,  Jun  Du,  and  Lirong  Dai.   Multi-scale  attention  with  dense  encoder  forhandwritten mathematical expression recognition.  In2018 24th international conferenceon pattern recognition (ICPR), pages 2245–2250. IEEE, 2018.
-[3]  Mathpix.  https://mathpix.com.
-[4]  Ross Girshick.  Fast r-cnn.  InProceedings of the IEEE international conference on com-puter vision, pages 1440–1448, 2015.
-[5]  Shaoqing Ren,  Kaiming He,  Ross Girshick,  and Jian  Sun.  Faster r-cnn:  Towards real-time object detection with region proposal networks.  InAdvances in neural informationprocessing systems, pages 91–99, 2015.
-[6]  Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.  You only look once:Unified, real-time object detection.  InProceedings of the IEEE conference on computervision and pattern recognition, pages 779–788, 2016.i
-[7]  Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-YangFu, and Alexander C Berg.  Ssd:  Single shot multibox detector.  InEuropean conferenceon computer vision, pages 21–37. Springer, 2016.
-[8]  Parag  Mali,  Puneeth  Kukkadapu,  Mahshad  Mahdavi,  and  Richard  Zanibbi.   Scanssd:Scanning single shot detector for mathematical formulas in pdf document images.arXivpreprint arXiv:2003.08005, 2020.
-[9]  Hasty.ai.  https://hasty.ai.
-[10]  Tsung-Yi Lin,  Michael Maire,  Serge Belongie,  Lubomir Bourdev,  Ross Girshick,  JamesHays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll ́ar.  Microsoftcoco:  Common objects in context, 2014.
-[11]  Visdom.  https://ai.facebook.com/tools/visdom.[12]  Parag Mali, Puneeth Kukkadapu, and Mahshad Madhavi.  Tfd-icdar 2019:  A dataset fortypeset math formula detection, 2019. https://github.com/MaliParag/TFD-ICDAR2019.
+1. Notability.  https://www.gingerlabs.com.
+2. Jianshu  Zhang,  Jun  Du,  and  Lirong  Dai.   Multi-scale  attention  with  dense  encoder  forhandwritten mathematical expression recognition.  In2018 24th international conferenceon pattern recognition (ICPR), pages 2245–2250. IEEE, 2018.
+3. Mathpix.  https://mathpix.com.
+4. Ross Girshick.  Fast r-cnn.  InProceedings of the IEEE international conference on com-puter vision, pages 1440–1448, 2015.
+5. Shaoqing Ren,  Kaiming He,  Ross Girshick,  and Jian  Sun.  Faster r-cnn:  Towards real-time object detection with region proposal networks.  InAdvances in neural informationprocessing systems, pages 91–99, 2015.
+6.  Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.  You only look once:Unified, real-time object detection.  InProceedings of the IEEE conference on computervision and pattern recognition, pages 779–788, 2016.i
+7.  Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-YangFu, and Alexander C Berg.  Ssd:  Single shot multibox detector.  InEuropean conferenceon computer vision, pages 21–37. Springer, 2016.
+8.  Parag  Mali,  Puneeth  Kukkadapu,  Mahshad  Mahdavi,  and  Richard  Zanibbi.   Scanssd:Scanning single shot detector for mathematical formulas in pdf document images.arXivpreprint arXiv:2003.08005, 2020.
+9.  Hasty.ai.  https://hasty.ai.
+10.  Tsung-Yi Lin,  Michael Maire,  Serge Belongie,  Lubomir Bourdev,  Ross Girshick,  JamesHays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll ́ar.  Microsoftcoco:  Common objects in context, 2014.
+11.  Visdom.  https://ai.facebook.com/tools/visdom.[12]  Parag Mali, Puneeth Kukkadapu, and Mahshad Madhavi.  Tfd-icdar 2019:  A dataset fortypeset math formula detection, 2019. https://github.com/MaliParag/TFD-ICDAR2019.
