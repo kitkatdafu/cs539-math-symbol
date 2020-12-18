@@ -23,14 +23,14 @@ Although note-taking apps do not have the feature of recognizing math
 symbols globally, i.e., these apps cannot detect where the formulas are,
 some of them have the ability to recognize math formulas given that the
 user tells the application where the math formulas are. For example,
-Notability [@notability_2020] recently announced a math conversion
+Notability recently announced a math conversion
 feature that converts a selected region of handwritten math into
 typewritten math. This shows that a mathematical recognizer exists. In
 fact, handwritten mathematical formula recognizers like
-[@zhang2018multi] outperforms the state-of-the-art accuracy in the
+outperforms the state-of-the-art accuracy in the
 Competition on Recognition of Online Handwritten Mathematical
 Expressions (CROHME). We also found a commercial mathematical recognizer
-called Mathpix [@mathpix_snip], which provides mathematical recognizer
+called Mathpix , which provides mathematical recognizer
 API. These existing recognizers only work well on an image containing a
 single formula. They cannot be used directly because the input should be
 a PDF file or images of each page from notes. Therefore, retrieving the
@@ -38,14 +38,14 @@ mathematical expressions or finding where the mathematical symbols are
 from inputs is essential.
 
 Researches in object detection provide methods of solving the detection
-problem. Fast R-CNN [@girshick2015fast] and Faster R-CNN
-[@ren2015faster] can both enable formula detection, but these methods
+problem. Fast R-CNN and Faster R-CNN
+can both enable formula detection, but these methods
 require a long computational power and time. Since we wish to deploy our
 model on mobile devices, which do not have huge computational power,
-one-shot detectors like YOLO [@redmon2016you] and Single Shot MultiBox
-Detector [@liu2016ssd] are more suitable for the project.
+one-shot detectors like YOLO and Single Shot MultiBox
+Detector are more suitable for the project.
 
-We decided to use ScanSSD [@mali2020scanssd] as our formula detection
+We decided to use ScanSSD as our formula detection
 architecture. ScanSSD is a typesetting formula detector proposed by Mali
 et al. It has a precision of 0.848 on typesetting inputs, which is high
 enough for our purpose. The acronym SSD stands for Single Shot MultiBox
@@ -67,3 +67,17 @@ purpose is to provide output to existing state-of-the-art formula
 recognizers like Mathpix, which will generate corresponding latex code.
 The false positives that are sent to these recognizers do not result in
 generating harmful latex code.
+
+Acknowledgements
+===========================
+[1]  Notability.  https://www.gingerlabs.com.
+[2]  Jianshu  Zhang,  Jun  Du,  and  Lirong  Dai.   Multi-scale  attention  with  dense  encoder  forhandwritten mathematical expression recognition.  In2018 24th international conferenceon pattern recognition (ICPR), pages 2245–2250. IEEE, 2018.
+[3]  Mathpix.  https://mathpix.com.
+[4]  Ross Girshick.  Fast r-cnn.  InProceedings of the IEEE international conference on com-puter vision, pages 1440–1448, 2015.
+[5]  Shaoqing Ren,  Kaiming He,  Ross Girshick,  and Jian  Sun.  Faster r-cnn:  Towards real-time object detection with region proposal networks.  InAdvances in neural informationprocessing systems, pages 91–99, 2015.
+[6]  Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.  You only look once:Unified, real-time object detection.  InProceedings of the IEEE conference on computervision and pattern recognition, pages 779–788, 2016.i
+[7]  Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-YangFu, and Alexander C Berg.  Ssd:  Single shot multibox detector.  InEuropean conferenceon computer vision, pages 21–37. Springer, 2016.
+[8]  Parag  Mali,  Puneeth  Kukkadapu,  Mahshad  Mahdavi,  and  Richard  Zanibbi.   Scanssd:Scanning single shot detector for mathematical formulas in pdf document images.arXivpreprint arXiv:2003.08005, 2020.
+[9]  Hasty.ai.  https://hasty.ai.
+[10]  Tsung-Yi Lin,  Michael Maire,  Serge Belongie,  Lubomir Bourdev,  Ross Girshick,  JamesHays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll ́ar.  Microsoftcoco:  Common objects in context, 2014.
+[11]  Visdom.  https://ai.facebook.com/tools/visdom.[12]  Parag Mali, Puneeth Kukkadapu, and Mahshad Madhavi.  Tfd-icdar 2019:  A dataset fortypeset math formula detection, 2019. https://github.com/MaliParag/TFD-ICDAR2019.
