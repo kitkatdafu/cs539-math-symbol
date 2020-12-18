@@ -1,14 +1,6 @@
-**A Single Shot MultiBox Detector Based Handwritten Formula Detector**
+# Group 48 Final kjuProject Report
 
-Group 48 Final Project Report
-
-Reid Chen\
-Department of Computer Sciences, Junior
-
-Jijie Zhang\
-Department of Economics, Junior
-
-University of Wisconsin-Madison\
+Reid Chen, Jijie Zhang
 
 Introduction and Background
 ===========================
