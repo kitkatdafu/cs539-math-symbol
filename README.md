@@ -79,5 +79,5 @@ Acknowledgements
 7.  Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-YangFu, and Alexander C Berg.  Ssd:  Single shot multibox detector.  In European conferenceon computer vision, pages 21–37. Springer, 2016.
 8.  Parag  Mali,  Puneeth  Kukkadapu,  Mahshad  Mahdavi,  and  Richard  Zanibbi.   Scanssd:Scanning single shot detector for mathematical formulas in pdf document images.arXiv preprint arXiv:2003.08005, 2020.
 9.  Hasty.ai.  https://hasty.ai.
-10.  Tsung-Yi Lin,  Michael Maire,  Serge Belongie,  Lubomir Bourdev,  Ross Girshick,  JamesHays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll ́ar.  Microsoftcoco:  Common objects in context, 2014.
+10.  Tsung-Yi Lin,  Michael Maire,  Serge Belongie,  Lubomir Bourdev,  Ross Girshick,  JamesHays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Doll ́ar.  Microsoft coco:  Common objects in context, 2014.
 11.  Visdom.  https://ai.facebook.com/tools/visdom.[12]  Parag Mali, Puneeth Kukkadapu, and Mahshad Madhavi.  Tfd-icdar 2019:  A dataset fortypeset math formula detection, 2019. https://github.com/MaliParag/TFD-ICDAR2019.
